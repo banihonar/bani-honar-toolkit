@@ -1,0 +1,2151 @@
+# Bani Honar Toolkit translation template.
+# Copyright (C) Bani Honar Advertising Agency
+# This file is distributed under the same license as the Bani Honar Toolkit plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Bani Honar Toolkit 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/bani-honar-toolkit/\n"
+"POT-Creation-Date: 2026-11-05 08:10+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#. Description of the plugin
+#: bani-honar-toolkit.php:4
+msgid "A multi-purpose, modular and extensible WordPress plugin: link shortener, QR code generator, page shield, visitor statistics, post duplicator, local profile pictures and more."
+msgstr ""
+
+#: includes/class-bhtk-admin.php:71 includes/class-bhtk-admin.php:72
+msgid "Dashboard"
+msgstr ""
+
+#: includes/class-bhtk-admin.php:94 includes/class-bhtk-admin.php:95
+#: includes/class-bhtk-admin.php:325
+msgid "Contact us"
+msgstr ""
+
+#: includes/class-bhtk-admin.php:157
+msgid "The older \"BHAC\" plugin is still active. Your links and settings were copied into Bani Honar Toolkit, so please deactivate the old plugin to avoid conflicts."
+msgstr ""
+
+#: includes/class-bhtk-admin.php:176
+msgid "A multi-purpose, modular and extensible plugin for WordPress."
+msgstr ""
+
+#: includes/class-bhtk-admin.php:200
+#, php-format, python-format
+msgid "Made by %s"
+msgstr ""
+
+#: includes/class-bhtk-admin.php:201
+msgid "Bani Honar Advertising Agency"
+msgstr ""
+
+#: includes/class-bhtk-admin.php:242
+msgid "Settings saved."
+msgstr ""
+
+#: includes/class-bhtk-admin.php:248
+msgid "Copy link"
+msgstr ""
+
+#: includes/class-bhtk-admin.php:291
+msgid "Modules"
+msgstr ""
+
+#: includes/class-bhtk-admin.php:307
+msgid "Enabled"
+msgstr ""
+
+#: includes/class-bhtk-admin.php:320
+msgid "Save modules"
+msgstr ""
+
+#: includes/class-bhtk-admin.php:324
+msgid "Suggestions, criticism, problems or a new module?"
+msgstr ""
+
+#: includes/class-bhtk-admin.php:325
+msgid "Write to the IT team. Every message is read."
+msgstr ""
+
+#: includes/class-bhtk-admin.php:329
+msgid "For developers"
+msgstr ""
+
+#: includes/class-bhtk-admin.php:330
+msgid "The toolkit is modular. To add your own module, extend the BHTK_Module class and register it on the bhtk_register_modules action. It then gets a card on this screen, a switch, and its own settings."
+msgstr ""
+
+#: includes/class-bhtk-admin.php:385
+msgid "On - running on your site"
+msgstr ""
+
+#: includes/class-bhtk-admin.php:387
+msgid "Off - nothing of this module runs on your site"
+msgstr ""
+
+#: includes/class-bhtk-admin.php:396
+msgid "On"
+msgstr ""
+
+#: includes/class-bhtk-admin.php:396
+msgid "Off"
+msgstr ""
+
+#: includes/class-bhtk-admin.php:398
+msgid "Apply"
+msgstr ""
+
+#: includes/class-bhtk-admin.php:435 includes/class-bhtk-admin.php:470
+msgid "This module does not exist."
+msgstr ""
+
+#: includes/class-bhtk-admin.php:445
+#, php-format, python-format
+msgid "%s is now on."
+msgstr ""
+
+#: includes/class-bhtk-admin.php:445
+#, php-format, python-format
+msgid "%s is now off."
+msgstr ""
+
+#: includes/class-bhtk-admin.php:506
+msgid "General"
+msgstr ""
+
+#: includes/class-bhtk-admin.php:509
+msgid "Plugin language"
+msgstr ""
+
+#: includes/class-bhtk-admin.php:511
+msgid "Follow the WordPress language"
+msgstr ""
+
+#: includes/class-bhtk-admin.php:512
+msgid "Persian (فارسی)"
+msgstr ""
+
+#: includes/class-bhtk-admin.php:513
+msgid "English"
+msgstr ""
+
+#: includes/class-bhtk-admin.php:515
+msgid "This changes the language of the toolkit screens only, not of your whole site."
+msgstr ""
+
+#: includes/class-bhtk-admin.php:521
+msgid "Delete all toolkit data when the plugin is deleted"
+msgstr ""
+
+#: includes/class-bhtk-admin.php:523
+msgid "Off by default, so deleting the plugin by accident does not remove your short links or profile pictures."
+msgstr ""
+
+#: includes/class-bhtk-contact.php:38
+msgid "Hello IT team,"
+msgstr ""
+
+#: includes/class-bhtk-contact.php:43 includes/class-bhtk-contact.php:45
+msgid "Suggestion"
+msgstr ""
+
+#: includes/class-bhtk-contact.php:44
+msgid "An idea to make an existing module better."
+msgstr ""
+
+#: includes/class-bhtk-contact.php:46
+msgid "My suggestion:"
+msgstr ""
+
+#: includes/class-bhtk-contact.php:50 includes/class-bhtk-contact.php:52
+msgid "Criticism"
+msgstr ""
+
+#: includes/class-bhtk-contact.php:51
+msgid "Tell us honestly what bothered you. We read every message."
+msgstr ""
+
+#: includes/class-bhtk-contact.php:53
+msgid "My criticism:"
+msgstr ""
+
+#: includes/class-bhtk-contact.php:57
+msgid "Report a problem"
+msgstr ""
+
+#: includes/class-bhtk-contact.php:58
+msgid "Something is broken or looks wrong. The technical details shown below are added to your e-mail, so we can find the cause faster."
+msgstr ""
+
+#: includes/class-bhtk-contact.php:59
+msgid "Problem report"
+msgstr ""
+
+#: includes/class-bhtk-contact.php:60
+msgid "The problem:"
+msgstr ""
+
+#: includes/class-bhtk-contact.php:60
+msgid "What I did before it happened:"
+msgstr ""
+
+#: includes/class-bhtk-contact.php:60
+msgid "What I expected:"
+msgstr ""
+
+#: includes/class-bhtk-contact.php:64
+msgid "Request a module"
+msgstr ""
+
+#: includes/class-bhtk-contact.php:65
+msgid "Describe the feature you need and how you would use it."
+msgstr ""
+
+#: includes/class-bhtk-contact.php:66
+msgid "Module request"
+msgstr ""
+
+#: includes/class-bhtk-contact.php:67
+msgid "The module I need:"
+msgstr ""
+
+#: includes/class-bhtk-contact.php:67
+msgid "What it should do:"
+msgstr ""
+
+#: includes/class-bhtk-contact.php:71
+msgid "Report a security problem"
+msgstr ""
+
+#: includes/class-bhtk-contact.php:72
+msgid "Found a security hole? Please do not post it in public. Write to us privately and we will fix it as fast as we can."
+msgstr ""
+
+#: includes/class-bhtk-contact.php:73
+msgid "Security"
+msgstr ""
+
+#: includes/class-bhtk-contact.php:74
+msgid "I found a security problem:"
+msgstr ""
+
+#: includes/class-bhtk-contact.php:74
+msgid "How to repeat it:"
+msgstr ""
+
+#: includes/class-bhtk-contact.php:194
+msgid "Contact the IT team"
+msgstr ""
+
+#: includes/class-bhtk-contact.php:195
+msgid "Your voice makes the toolkit better. Send a suggestion or criticism, report a problem, or ask for a new module. Your message goes to the IT team of Bani Honar Advertising Agency."
+msgstr ""
+
+#: includes/class-bhtk-contact.php:210
+msgid "Write in Gmail"
+msgstr ""
+
+#: includes/class-bhtk-contact.php:211
+msgid "Mail app"
+msgstr ""
+
+#: includes/class-bhtk-contact.php:212
+msgid "Copy message"
+msgstr ""
+
+#: includes/class-bhtk-contact.php:218
+msgid "Nothing is sent from your website. \"Write in Gmail\" opens Gmail in a new tab and \"Mail app\" opens the e-mail program of your computer, both with a ready subject and text that you can read and change before you send it. If neither works, press \"Copy message\" and send it from any e-mail service to the address above."
+msgstr ""
+
+#: includes/class-bhtk-contact.php:222
+msgid "Details added to a problem report"
+msgstr ""
+
+#: includes/class-bhtk-contact.php:223
+msgid "Only these lines are added, and only to a problem report. They contain no website address, no passwords and no visitor data."
+msgstr ""
+
+#: includes/class-bhtk-contact.php:225
+msgid "Copy the details"
+msgstr ""
+
+#: includes/class-bhtk-i18n.php:105
+msgid "Copied ✓"
+msgstr ""
+
+#: includes/class-bhtk-i18n.php:106
+msgid "Copy this link:"
+msgstr ""
+
+#: includes/class-bhtk-i18n.php:107
+msgid "The image is larger than 2 MB. Please choose a smaller one."
+msgstr ""
+
+#: includes/class-bhtk-privacy.php:39
+msgid "Visitor statistics"
+msgstr ""
+
+#: includes/class-bhtk-privacy.php:40
+msgid "Only when the Visitor Stats module is switched on: for every page a visitor opens, this website stores the date and time, the IP address (or the address with its last part removed, if that option is chosen), the country, the page address and title, the website the visitor came from, campaign tags, the browser and device details sent by the browser, the screen size, language and time zone. If the visitor is logged in, the user account is stored too, and so are words typed into the search box of this website. No cookies are set. The data is deleted automatically after the retention period chosen by the site owner."
+msgstr ""
+
+#: includes/class-bhtk-privacy.php:41
+msgid "If the option \"Find the country online\" is switched on, the visitor IP address is sent once to a country lookup service (ipwho.is or GeoJS) to find the country. It is off unless the site owner switches it on."
+msgstr ""
+
+#: includes/class-bhtk-privacy.php:42
+msgid "Profile pictures"
+msgstr ""
+
+#: includes/class-bhtk-privacy.php:43
+msgid "Pictures that users upload are stored on this website only. No picture and no e-mail address is sent to Gravatar."
+msgstr ""
+
+#: includes/class-bhtk-privacy.php:44
+msgid "Short links"
+msgstr ""
+
+#: includes/class-bhtk-privacy.php:45
+msgid "A short link stores its destination, an optional note, the number of clicks and the time of the last click. Visitors who use a short link are not identified or logged."
+msgstr ""
+
+#: includes/class-bhtk-privacy.php:58 includes/class-bhtk-privacy.php:72
+msgid "Bani Honar Toolkit: visitor statistics"
+msgstr ""
+
+#: includes/class-bhtk-privacy.php:104
+msgid "Website visits"
+msgstr ""
+
+#: includes/class-bhtk-privacy.php:108
+msgid "Date and time (UTC)"
+msgstr ""
+
+#: modules/code-shield/class-bhtk-module-code-shield.php:42
+#: modules/code-shield/class-bhtk-module-code-shield.php:128
+msgid "Page Shield"
+msgstr ""
+
+#: modules/code-shield/class-bhtk-module-code-shield.php:51
+msgid "Make casual copying of your pages harder: blocked right-click menu, developer shortcuts and image dragging, and hidden WordPress version details. No effect on search engines."
+msgstr ""
+
+#: modules/code-shield/class-bhtk-module-code-shield.php:153
+msgid "You are logged in as an administrator, so you will not see the protection on your own site unless \"Also protect logged-in administrators\" is ticked. To test it, open your site in a private window or another browser."
+msgstr ""
+
+#: modules/code-shield/class-bhtk-module-code-shield.php:157
+msgid "Page Shield is off. You can still change the settings below; they are saved and start working when you switch it on."
+msgstr ""
+
+#: modules/code-shield/class-bhtk-module-code-shield.php:187
+msgid "Block the right-click menu"
+msgstr ""
+
+#: modules/code-shield/class-bhtk-module-code-shield.php:187
+msgid "The menu still works inside text fields."
+msgstr ""
+
+#: modules/code-shield/class-bhtk-module-code-shield.php:188
+msgid "Block developer shortcuts"
+msgstr ""
+
+#: modules/code-shield/class-bhtk-module-code-shield.php:188
+msgid "F12, Ctrl+U (view source), Ctrl+S (save page), Ctrl+Shift+I / J / C."
+msgstr ""
+
+#: modules/code-shield/class-bhtk-module-code-shield.php:189
+msgid "Block dragging images out of the page"
+msgstr ""
+
+#: modules/code-shield/class-bhtk-module-code-shield.php:190
+msgid "Hide WordPress version details"
+msgstr ""
+
+#: modules/code-shield/class-bhtk-module-code-shield.php:190
+msgid "Removes the generator tag and a few other tags from the page head."
+msgstr ""
+
+#: modules/code-shield/class-bhtk-module-code-shield.php:191
+msgid "Also protect logged-in administrators"
+msgstr ""
+
+#: modules/code-shield/class-bhtk-module-code-shield.php:191
+msgid "Off by default so you can inspect your own site. The Elementor editor is never protected."
+msgstr ""
+
+#: modules/code-shield/class-bhtk-module-code-shield.php:195
+msgid "Please note: these are deterrents, not a lock. A browser must receive the HTML, CSS and JavaScript of a page, so a determined person can always read them (for example with view-source: in the address bar, or with a script). Your PHP code never reaches the browser and stays private. Never put passwords or secret keys in page code."
+msgstr ""
+
+#: modules/code-shield/class-bhtk-module-code-shield.php:198
+msgid "Options without any effect on search engines"
+msgstr ""
+
+#: modules/code-shield/class-bhtk-module-code-shield.php:198
+msgid "No SEO effect"
+msgstr ""
+
+#: modules/link-shortener/class-bhtk-links-page.php:50
+#, php-format, python-format
+msgid "Permalinks are off in your site, so short links look like %s. For shorter links, choose a structure such as \"Post name\" in Settings > Permalinks."
+msgstr ""
+
+#: modules/link-shortener/class-bhtk-links-page.php:58
+msgid "Shorten long links with your own domain, for example:"
+msgstr ""
+
+#: modules/link-shortener/class-bhtk-links-page.php:64
+msgid "Links"
+msgstr ""
+
+#: modules/link-shortener/class-bhtk-links-page.php:68
+msgid "Total clicks"
+msgstr ""
+
+#: modules/link-shortener/class-bhtk-links-page.php:72
+msgid "Your domain"
+msgstr ""
+
+#: modules/link-shortener/class-bhtk-links-page.php:78
+msgid "Create a short link"
+msgstr ""
+
+#: modules/link-shortener/class-bhtk-links-page.php:84
+msgid "Long address (destination)"
+msgstr ""
+
+#: modules/link-shortener/class-bhtk-links-page.php:89
+msgid "Number of characters"
+msgstr ""
+
+#: modules/link-shortener/class-bhtk-links-page.php:91
+msgid "Suggested lengths"
+msgstr ""
+
+#: modules/link-shortener/class-bhtk-links-page.php:96
+msgid "Lowercase and uppercase English letters plus numbers, picked at random."
+msgstr ""
+
+#: modules/link-shortener/class-bhtk-links-page.php:100
+msgid "Custom code"
+msgstr ""
+
+#: modules/link-shortener/class-bhtk-links-page.php:100
+#: modules/link-shortener/class-bhtk-links-page.php:106
+msgid "(optional)"
+msgstr ""
+
+#: modules/link-shortener/class-bhtk-links-page.php:102
+msgid "If you fill this in, the number of characters is ignored."
+msgstr ""
+
+#: modules/link-shortener/class-bhtk-links-page.php:107
+msgid "For example: autumn TV banner"
+msgstr ""
+
+#: modules/link-shortener/class-bhtk-links-page.php:111
+msgid "Create short link"
+msgstr ""
+
+#: modules/link-shortener/class-bhtk-links-page.php:118
+msgid "Your links"
+msgstr ""
+
+#: modules/link-shortener/class-bhtk-links-page.php:121
+msgid "Search code, destination or note"
+msgstr ""
+
+#: modules/link-shortener/class-bhtk-links-page.php:130
+msgid "Nothing found."
+msgstr ""
+
+#: modules/link-shortener/class-bhtk-links-page.php:132
+msgid "You have not created any links yet. Create the first one with the form above."
+msgstr ""
+
+#: modules/link-shortener/class-bhtk-links-page.php:140
+#: modules/link-shortener/class-bhtk-links-page.php:155
+msgid "Short link"
+msgstr ""
+
+#: modules/link-shortener/class-bhtk-links-page.php:141
+#: modules/link-shortener/class-bhtk-links-page.php:158
+#: modules/link-shortener/class-bhtk-links-page.php:201
+msgid "Destination"
+msgstr ""
+
+#: modules/link-shortener/class-bhtk-links-page.php:142
+#: modules/link-shortener/class-bhtk-links-page.php:164
+msgid "Clicks"
+msgstr ""
+
+#: modules/link-shortener/class-bhtk-links-page.php:143
+#: modules/link-shortener/class-bhtk-links-page.php:178
+msgid "Date"
+msgstr ""
+
+#: modules/link-shortener/class-bhtk-links-page.php:171
+#, php-format, python-format
+msgid "Last: %s"
+msgstr ""
+
+#: includes/class-bhtk-contact.php:200
+#: modules/link-shortener/class-bhtk-links-page.php:180
+msgid "Copy"
+msgstr ""
+
+#: modules/link-shortener/class-bhtk-links-page.php:182
+msgid "QR"
+msgstr ""
+
+#: modules/link-shortener/class-bhtk-links-page.php:184
+msgid "Edit"
+msgstr ""
+
+#: modules/link-shortener/class-bhtk-links-page.php:185
+msgid "Delete this short link? Links you have already shared will stop working."
+msgstr ""
+
+#: modules/link-shortener/class-bhtk-links-page.php:190
+msgid "Delete"
+msgstr ""
+
+#: modules/link-shortener/class-bhtk-links-page.php:207
+msgid "Save"
+msgstr ""
+
+#: modules/link-shortener/class-bhtk-links-page.php:208
+msgid "Cancel"
+msgstr ""
+
+#: modules/link-shortener/class-bhtk-links.php:162
+msgid "Enter the destination address."
+msgstr ""
+
+#: modules/link-shortener/class-bhtk-links.php:171
+msgid "The address is not valid. A correct example: https://example.com/page"
+msgstr ""
+
+#: modules/link-shortener/class-bhtk-links.php:259
+msgid "A custom code may only contain English letters and numbers (up to 64 characters)."
+msgstr ""
+
+#: modules/link-shortener/class-bhtk-links.php:262
+msgid "This code clashes with a page or address of your site. Choose another code."
+msgstr ""
+
+#: modules/link-shortener/class-bhtk-links.php:265
+msgid "This code is already in use."
+msgstr ""
+
+#: modules/link-shortener/class-bhtk-links.php:268
+msgid "The link could not be saved. Please try again."
+msgstr ""
+
+#: modules/link-shortener/class-bhtk-links.php:282
+msgid "No free code of this length was found. Increase the code length."
+msgstr ""
+
+#: modules/link-shortener/class-bhtk-module-link-shortener.php:34
+#: modules/link-shortener/class-bhtk-module-link-shortener.php:143
+msgid "Link Shortener"
+msgstr ""
+
+#: modules/link-shortener/class-bhtk-module-link-shortener.php:43
+msgid "Shorten long links with your own domain, choose the code length and track clicks."
+msgstr ""
+
+#: modules/link-shortener/class-bhtk-module-link-shortener.php:103
+msgid "Default code length"
+msgstr ""
+
+#: modules/link-shortener/class-bhtk-module-link-shortener.php:105
+msgid "This value is pre-filled when you create a link."
+msgstr ""
+
+#: modules/link-shortener/class-bhtk-module-link-shortener.php:109
+msgid "Redirect type"
+msgstr ""
+
+#: modules/link-shortener/class-bhtk-module-link-shortener.php:111
+msgid "302 - temporary (recommended, accurate click counts)"
+msgstr ""
+
+#: modules/link-shortener/class-bhtk-module-link-shortener.php:112
+msgid "307 - temporary (keeps the request method)"
+msgstr ""
+
+#: modules/link-shortener/class-bhtk-module-link-shortener.php:113
+msgid "301 - permanent (browsers cache it, fewer clicks are counted)"
+msgstr ""
+
+#: modules/link-shortener/class-bhtk-module-link-shortener.php:118
+msgid "Path prefix (optional)"
+msgstr ""
+
+#: modules/link-shortener/class-bhtk-module-link-shortener.php:124
+#, php-format, python-format
+msgid "With the prefix \"go\" links look like %s. Links without a prefix always keep working, but if you remove or change a prefix, links already shared with it stop working."
+msgstr ""
+
+#: modules/link-shortener/class-bhtk-module-link-shortener.php:200
+msgid "Short link created:"
+msgstr ""
+
+#: modules/link-shortener/class-bhtk-module-link-shortener.php:225
+msgid "Changes saved."
+msgstr ""
+
+#: modules/link-shortener/class-bhtk-module-link-shortener.php:243
+msgid "The link was deleted."
+msgstr ""
+
+#: modules/local-avatars/class-bhtk-module-local-avatars.php:40
+msgid "Profile Pictures"
+msgstr ""
+
+#: modules/local-avatars/class-bhtk-module-local-avatars.php:49
+msgid "Users upload their own profile picture in WordPress. No Gravatar account is needed."
+msgstr ""
+
+#: modules/local-avatars/class-bhtk-module-local-avatars.php:105
+msgid "Show a built-in picture instead of Gravatar for users without a photo"
+msgstr ""
+
+#: modules/local-avatars/class-bhtk-module-local-avatars.php:107
+msgid "When this is off, WordPress falls back to its normal Gravatar behaviour for these users."
+msgstr ""
+
+#: modules/local-avatars/class-bhtk-module-local-avatars.php:284
+msgid "Profile picture"
+msgstr ""
+
+#: modules/local-avatars/class-bhtk-module-local-avatars.php:288
+msgid "Choose a new picture"
+msgstr ""
+
+#: modules/local-avatars/class-bhtk-module-local-avatars.php:291
+msgid "JPG, PNG, GIF or WebP, up to 2 MB. The picture is cropped to a square automatically. After choosing a file, click the profile update button."
+msgstr ""
+
+#: modules/local-avatars/class-bhtk-module-local-avatars.php:296
+msgid "Remove the current picture"
+msgstr ""
+
+#: modules/local-avatars/class-bhtk-module-local-avatars.php:360
+msgid "The file is larger than allowed. The maximum is 2 MB."
+msgstr ""
+
+#: modules/local-avatars/class-bhtk-module-local-avatars.php:363
+msgid "The upload failed. Please try again."
+msgstr ""
+
+#: modules/local-avatars/class-bhtk-module-local-avatars.php:366
+msgid "The file is larger than 2 MB."
+msgstr ""
+
+#: modules/local-avatars/class-bhtk-module-local-avatars.php:396
+msgid "Only image files (JPG, PNG, GIF or WebP) are allowed."
+msgstr ""
+
+#: modules/local-avatars/class-bhtk-module-local-avatars.php:403
+msgid "The selected file is not a valid image."
+msgstr ""
+
+#: modules/local-avatars/class-bhtk-module-local-avatars.php:409
+msgid "The image could not be processed."
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-clone-ui.php:109
+#: modules/post-duplicator/class-bhtk-clone-ui.php:352
+msgid "Publish into the live page"
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-clone-ui.php:115
+#: modules/post-duplicator/class-bhtk-clone-ui.php:358
+msgid "Discard draft"
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-clone-ui.php:117
+#: modules/post-duplicator/class-bhtk-clone-ui.php:357
+msgid "Throw this draft away? The live page is not changed."
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-clone-ui.php:125
+msgid "Duplicate and edit the copy"
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-clone-ui.php:136
+msgid "Open the draft"
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-clone-ui.php:160
+msgid "Put this draft live? The live page will be replaced by the draft, and the draft is removed."
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-clone-ui.php:162
+msgid "This type of content keeps no revisions, so the old text cannot be restored afterwards."
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-clone-ui.php:251
+#, php-format
+msgid "%1$s copies were made. %2$s posts could not be copied."
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-clone-ui.php:334
+msgid "The live page is gone, so this draft has nothing to publish into."
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-clone-ui.php:335
+#: modules/post-duplicator/class-bhtk-clone-ui.php:582
+msgid "Keep as a normal post"
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-clone-ui.php:341
+#, php-format, python-format
+msgid "This is a safe-edit draft of \"%s\". Visitors still see the live page."
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-clone-ui.php:346
+msgid "Careful: the live page was changed after this draft was made. Publishing will ask before it overwrites those changes."
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-clone-ui.php:368
+msgid "Work on a hidden draft while visitors keep seeing this page. Publish it when it is ready."
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-clone-ui.php:371
+msgid "A safe-edit draft of this page is open."
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-clone-ui.php:377
+msgid "Copied from:"
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-clone-ui.php:380
+msgid "You cannot duplicate this post."
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-clone-ui.php:393
+msgid "Safe-edit draft"
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-clone-ui.php:395
+msgid "Draft in progress"
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-clone-ui.php:522
+msgid "The safe-edit draft is ready. Visitors still see the live page; press \"Publish into the live page\" when you are done."
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-clone-ui.php:541
+#, php-format, python-format
+msgid "The copy was made, with %s posts in all."
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-clone-ui.php:544
+msgid "The copy was made."
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-clone-ui.php:551
+msgid "Edit the copy"
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-clone-ui.php:576
+msgid "Publish anyway"
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-clone-ui.php:593
+msgid "View"
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-clone-ui.php:597
+msgid "The draft is live now."
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-clone-ui.php:599
+msgid "The previous text is saved in the revisions of the page."
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-clone-ui.php:620
+msgid "The draft was discarded. The live page was not changed."
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-clone-ui.php:638
+msgid "This post is a normal post now."
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-cloner.php:78
+#, python-brace-format
+msgid "{title} (Copy)"
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-cloner.php:170
+#: modules/post-duplicator/class-bhtk-cloner.php:210
+#: modules/post-duplicator/class-bhtk-cloner.php:259
+#: modules/post-duplicator/class-bhtk-cloner.php:658
+#: modules/post-duplicator/class-bhtk-cloner.php:723
+#: modules/post-duplicator/class-bhtk-cloner.php:835
+msgid "That post does not exist."
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-cloner.php:174
+#: modules/post-duplicator/class-bhtk-cloner.php:217
+msgid "This type of content cannot be duplicated."
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-cloner.php:177
+msgid "A post in the trash cannot be duplicated."
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-cloner.php:181
+msgid "You are not allowed to create this type of content."
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-cloner.php:185
+msgid "Only administrators may duplicate content."
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-cloner.php:188
+msgid "Only editors and administrators may duplicate content."
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-cloner.php:192
+#: modules/post-duplicator/class-bhtk-cloner.php:195
+msgid "You are not allowed to copy this post."
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-cloner.php:213
+msgid "Safe edit is switched off."
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-cloner.php:220
+msgid "Safe edit is for posts that are already published."
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-cloner.php:223
+msgid "This is already a safe-edit draft."
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-clone-ui.php:635
+#: modules/post-duplicator/class-bhtk-cloner.php:227
+#: modules/post-duplicator/class-bhtk-cloner.php:734
+msgid "You are not allowed to edit this post."
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-cloner.php:272
+msgid "Too many posts for one action."
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-cloner.php:662
+msgid "There is a safe-edit draft of this post already."
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-cloner.php:727
+#: modules/post-duplicator/class-bhtk-cloner.php:838
+msgid "This is not a safe-edit draft."
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-cloner.php:731
+msgid "The live post is gone, so there is nothing to publish into. You can keep the draft as a normal post."
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-cloner.php:737
+msgid "The live post was changed after this draft was made. Publishing now would overwrite those changes."
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-cloner.php:841
+msgid "You are not allowed to delete this post."
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-module-post-duplicator.php:34
+#: modules/post-duplicator/class-bhtk-module-post-duplicator.php:184
+msgid "Post Duplicator"
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-module-post-duplicator.php:43
+msgid "Duplicate posts, pages and custom content with one click or in bulk, and edit live pages safely through a draft that you publish when it is ready."
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-module-post-duplicator.php:88
+msgid "Content"
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-module-post-duplicator.php:89
+msgid "Excerpt"
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-module-post-duplicator.php:90
+msgid "Featured image"
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-module-post-duplicator.php:91
+msgid "Categories, tags and other taxonomies"
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-module-post-duplicator.php:92
+msgid "Custom fields"
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-module-post-duplicator.php:92
+msgid "Page builders such as Elementor keep their layout in custom fields. Leave this on for them."
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-module-post-duplicator.php:93
+msgid "Page template"
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-module-post-duplicator.php:94
+msgid "Post format"
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-module-post-duplicator.php:95
+msgid "Order number"
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-module-post-duplicator.php:96
+msgid "Comments"
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-module-post-duplicator.php:97
+msgid "Child pages"
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-module-post-duplicator.php:97
+msgid "For pages with sub-pages: the sub-pages are copied too, as children of the copy (up to 100 posts)."
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-module-post-duplicator.php:98
+msgid "Password"
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-module-post-duplicator.php:99
+msgid "Address (slug)"
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-module-post-duplicator.php:99
+msgid "A number is added when the address is taken."
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-module-post-duplicator.php:100
+msgid "Publish date"
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-module-post-duplicator.php:101
+msgid "Author"
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-module-post-duplicator.php:101
+msgid "Off: the copy belongs to the person who copies."
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-module-post-duplicator.php:102
+msgid "Status"
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-module-post-duplicator.php:102
+msgid "Off: the copy is always a draft. People who may not publish get \"pending review\" instead."
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-module-post-duplicator.php:250
+msgid "Post Duplicator is off. You can still change the settings below; they are saved and start working when you switch it on."
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-module-post-duplicator.php:254
+msgid "How it works"
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-module-post-duplicator.php:256
+msgid "a link under every title in the lists, in the bulk actions menu, in the admin bar and in the editor. The copy is a draft."
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-clone-ui.php:125
+#: modules/post-duplicator/class-bhtk-clone-ui.php:213
+#: modules/post-duplicator/class-bhtk-clone-ui.php:285
+#: modules/post-duplicator/class-bhtk-clone-ui.php:320
+#: modules/post-duplicator/class-bhtk-module-post-duplicator.php:256
+msgid "Duplicate"
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-module-post-duplicator.php:257
+msgid "for a page that is already live: you work on a hidden draft, visitors keep seeing the current page, and one click puts your changes live. The address, date and comments stay as they are, and the old text is saved as a revision."
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-clone-ui.php:143
+#: modules/post-duplicator/class-bhtk-module-post-duplicator.php:257
+#: modules/post-duplicator/class-bhtk-module-post-duplicator.php:362
+msgid "Edit safely"
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-module-post-duplicator.php:258
+msgid "Safe by design"
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-module-post-duplicator.php:258
+msgid "backslashes in blocks and Elementor data are kept exactly, edit locks and page-builder caches are not copied, and if the live page was changed after you started the draft you are asked before anything is overwritten."
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-module-post-duplicator.php:291
+msgid "Who and where"
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-module-post-duplicator.php:294
+msgid "Who may duplicate"
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-module-post-duplicator.php:296
+msgid "Everyone who may create this type of content (recommended)"
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-module-post-duplicator.php:297
+msgid "Editors and administrators"
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-module-post-duplicator.php:298
+msgid "Administrators only"
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-module-post-duplicator.php:300
+msgid "Nobody can copy something they are not allowed to read."
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-module-post-duplicator.php:304
+msgid "Content types"
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-module-post-duplicator.php:313
+msgid "Products and orders of WooCommerce are not offered: they keep data in extra tables, so use the duplicate button of WooCommerce for them."
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-module-post-duplicator.php:317
+msgid "Show the buttons in"
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-module-post-duplicator.php:321
+msgid "The lists, under each title"
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-module-post-duplicator.php:322
+msgid "The bulk actions menu of the lists"
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-module-post-duplicator.php:323
+msgid "The admin bar"
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-module-post-duplicator.php:324
+msgid "A box in the editor"
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-module-post-duplicator.php:339
+msgid "What a copy contains"
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-module-post-duplicator.php:350
+msgid "Move the mouse over an option for a short explanation."
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-module-post-duplicator.php:354
+msgid "Title of the copy"
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-module-post-duplicator.php:356
+#, python-brace-format
+msgid "Use {title} for the original title, {n} for the number of the copy and {date} for today. Leave empty for the standard pattern."
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-module-post-duplicator.php:367
+msgid "Offer \"Edit safely\" for pages that are live"
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-module-post-duplicator.php:369
+msgid "Makes a hidden draft of the live page. Visitors see the live page until you press \"Publish into the live page\". A draft that is open at the time can be seen below."
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-module-post-duplicator.php:375
+msgid "Advanced"
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-module-post-duplicator.php:378
+msgid "Custom fields that are never copied"
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-module-post-duplicator.php:381
+msgid "One name per line. A star stands for any characters, for example _my_plugin_*."
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-module-post-duplicator.php:382
+#: modules/post-duplicator/class-bhtk-module-post-duplicator.php:391
+msgid "Always skipped:"
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-module-post-duplicator.php:387
+msgid "Taxonomies that are never copied"
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-module-post-duplicator.php:390
+msgid "One name per line, for example post_tag."
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-module-post-duplicator.php:419
+msgid "Safe-edit drafts in progress"
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-module-post-duplicator.php:421
+msgid "No draft is open."
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-module-post-duplicator.php:426
+msgid "Draft"
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-module-post-duplicator.php:427
+msgid "Live page"
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-module-post-duplicator.php:428
+msgid "Made"
+msgstr ""
+
+#: modules/post-duplicator/class-bhtk-module-post-duplicator.php:441
+msgid "Missing"
+msgstr ""
+
+#: includes/class-bhtk-admin.php:310
+#: modules/post-duplicator/class-bhtk-module-post-duplicator.php:445
+msgid "Open"
+msgstr ""
+
+#: modules/qr-generator/class-bhtk-module-qr-generator.php:38
+msgid "QR Code Generator"
+msgstr ""
+
+#: modules/qr-generator/class-bhtk-module-qr-generator.php:47
+msgid "Turn a link or any text into a QR code and download it as PNG or SVG."
+msgstr ""
+
+#: modules/qr-generator/class-bhtk-module-qr-generator.php:107
+msgid "Default image size"
+msgstr ""
+
+#: modules/qr-generator/class-bhtk-module-qr-generator.php:115
+msgid "Default error correction"
+msgstr ""
+
+#: modules/qr-generator/class-bhtk-module-qr-generator.php:123
+msgid "Default white border"
+msgstr ""
+
+#: modules/qr-generator/class-bhtk-module-qr-generator.php:125
+msgid "Measured in QR squares. At least 2 is recommended so phones can read the code."
+msgstr ""
+
+#: modules/qr-generator/class-bhtk-module-qr-generator.php:138
+msgid "L - Low (smallest code)"
+msgstr ""
+
+#: modules/qr-generator/class-bhtk-module-qr-generator.php:139
+msgid "M - Medium (recommended)"
+msgstr ""
+
+#: modules/qr-generator/class-bhtk-module-qr-generator.php:140
+msgid "Q - Quarter"
+msgstr ""
+
+#: modules/qr-generator/class-bhtk-module-qr-generator.php:141
+msgid "H - High (best for printing)"
+msgstr ""
+
+#: modules/qr-generator/class-bhtk-module-qr-generator.php:154
+msgid "QR Code"
+msgstr ""
+
+#: modules/qr-generator/class-bhtk-module-qr-generator.php:232
+msgid "Type a link or some text to see the QR code."
+msgstr ""
+
+#: modules/qr-generator/class-bhtk-module-qr-generator.php:233
+msgid "This text is too long for a QR code at this error-correction level. Shorten it or choose a lower level."
+msgstr ""
+
+#: modules/qr-generator/class-bhtk-module-qr-generator.php:234
+msgid "The colors are too close or inverted. Some phones may not be able to scan this code. Use a dark code on a light background."
+msgstr ""
+
+#: modules/qr-generator/class-bhtk-module-qr-generator.php:235
+msgid "https:// was added in front of the address so phones open it as a link."
+msgstr ""
+
+#: modules/qr-generator/class-bhtk-module-qr-generator.php:236
+msgid "Image copied ✓"
+msgstr ""
+
+#: modules/qr-generator/class-bhtk-module-qr-generator.php:237
+msgid "Your browser could not copy the image. Download it instead."
+msgstr ""
+
+#: modules/qr-generator/class-bhtk-module-qr-generator.php:280
+msgid "Create a QR code"
+msgstr ""
+
+#: modules/qr-generator/class-bhtk-module-qr-generator.php:283
+msgid "Link"
+msgstr ""
+
+#: modules/qr-generator/class-bhtk-module-qr-generator.php:284
+#: modules/qr-generator/class-bhtk-module-qr-generator.php:302
+msgid "Text"
+msgstr ""
+
+#: modules/qr-generator/class-bhtk-module-qr-generator.php:288
+msgid "Link address"
+msgstr ""
+
+#: modules/qr-generator/class-bhtk-module-qr-generator.php:291
+msgid "Or pick one of your short links"
+msgstr ""
+
+#: modules/qr-generator/class-bhtk-module-qr-generator.php:293
+msgid "- Choose -"
+msgstr ""
+
+#: modules/qr-generator/class-bhtk-module-qr-generator.php:303
+msgid "Any text, a phone number, an address..."
+msgstr ""
+
+#: modules/qr-generator/class-bhtk-module-qr-generator.php:304
+msgid "Up to 1000 characters. Persian text works too."
+msgstr ""
+
+#: modules/qr-generator/class-bhtk-module-qr-generator.php:309
+msgid "Image size"
+msgstr ""
+
+#: modules/qr-generator/class-bhtk-module-qr-generator.php:317
+msgid "Error correction"
+msgstr ""
+
+#: modules/qr-generator/class-bhtk-module-qr-generator.php:325
+msgid "White border"
+msgstr ""
+
+#: modules/qr-generator/class-bhtk-module-qr-generator.php:329
+msgid "Code color"
+msgstr ""
+
+#: modules/qr-generator/class-bhtk-module-qr-generator.php:333
+msgid "Background color"
+msgstr ""
+
+#: modules/qr-generator/class-bhtk-module-qr-generator.php:341
+msgid "QR code preview"
+msgstr ""
+
+#: modules/qr-generator/class-bhtk-module-qr-generator.php:345
+msgid "Download PNG"
+msgstr ""
+
+#: modules/qr-generator/class-bhtk-module-qr-generator.php:346
+msgid "Download SVG"
+msgstr ""
+
+#: modules/qr-generator/class-bhtk-module-qr-generator.php:347
+msgid "Copy image"
+msgstr ""
+
+#: modules/qr-generator/class-bhtk-module-qr-generator.php:349
+msgid "The code is created in your browser. Nothing is uploaded or stored."
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-blocklist.php:209
+msgid "Your access to this website has been blocked."
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-blocklist.php:210
+msgid "Access blocked"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-module-visitor-stats.php:54
+#: modules/visitor-stats/class-bhtk-module-visitor-stats.php:151
+msgid "Visitor Stats"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-module-visitor-stats.php:63
+msgid "See every visit to your website: how many, where from, IP address, country and the name of the device."
+msgstr ""
+
+#: includes/class-bhtk-admin.php:344 includes/class-bhtk-admin.php:427
+#: includes/class-bhtk-admin.php:463 includes/class-bhtk-admin.php:550
+#: modules/link-shortener/class-bhtk-module-link-shortener.php:185
+#: modules/link-shortener/class-bhtk-module-link-shortener.php:213
+#: modules/link-shortener/class-bhtk-module-link-shortener.php:237
+#: modules/visitor-stats/class-bhtk-module-visitor-stats.php:526
+#: modules/visitor-stats/class-bhtk-module-visitor-stats.php:670
+#: modules/visitor-stats/class-bhtk-module-visitor-stats.php:689
+#: modules/visitor-stats/class-bhtk-module-visitor-stats.php:722
+msgid "You are not allowed to do this."
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-module-visitor-stats.php:552
+msgid "Date and time"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-module-visitor-stats.php:554
+msgid "Country code"
+msgstr ""
+
+#: includes/class-bhtk-privacy.php:120
+#: modules/visitor-stats/class-bhtk-module-visitor-stats.php:558
+msgid "Referrer"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-module-visitor-stats.php:560
+msgid "Page title"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-module-visitor-stats.php:567
+msgid "Model code"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-module-visitor-stats.php:569
+msgid "System version"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-module-visitor-stats.php:571
+msgid "Browser version"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-module-visitor-stats.php:574
+msgid "Time zone"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-module-visitor-stats.php:577
+msgid "First page of a visit"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-module-visitor-stats.php:677
+msgid "All stored visits were deleted."
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-module-visitor-stats.php:701
+msgid "That is not a valid IP address. Type one address, or an IPv4 range such as 198.51.100.0/24."
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-module-visitor-stats.php:702
+msgid "Private and reserved addresses cannot be blocked."
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-module-visitor-stats.php:703
+msgid "That would block your own address, so it was not saved."
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-module-visitor-stats.php:704
+msgid "The list is full. Remove some addresses first."
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-module-visitor-stats.php:707
+msgid "The address is blocked now."
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-module-visitor-stats.php:729
+msgid "The address is unblocked."
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-referrer.php:250
+msgid "Direct (no referrer)"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-referrer.php:253
+msgid "Inside this website"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-referrer.php:256
+msgid "Google"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-referrer.php:257
+msgid "Bing"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-referrer.php:258
+msgid "Yahoo"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-referrer.php:259
+msgid "Instagram"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-referrer.php:260
+msgid "Facebook"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-referrer.php:261
+msgid "X (Twitter)"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-referrer.php:262
+msgid "LinkedIn"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-referrer.php:263
+msgid "YouTube"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-referrer.php:264
+msgid "Pinterest"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-referrer.php:265
+msgid "TikTok"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-referrer.php:266
+msgid "Telegram"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-referrer.php:267
+msgid "WhatsApp"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-referrer.php:268
+msgid "Eitaa"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-referrer.php:269
+msgid "Rubika"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-referrer.php:270
+msgid "Bale"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-referrer.php:271
+msgid "Aparat"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-referrer.php:272
+msgid "Newsletter"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-referrer.php:273
+msgid "Email"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-referrer.php:274
+msgid "SMS"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-referrer.php:287
+msgid "Direct"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-referrer.php:288
+msgid "Internal"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-referrer.php:289
+msgid "Search engine"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-referrer.php:290
+msgid "Social / messenger"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-referrer.php:291
+msgid "Other website"
+msgstr ""
+
+#: includes/class-bhtk-admin.php:280 includes/class-bhtk-admin.php:494
+#: includes/class-bhtk-contact.php:188
+#: modules/code-shield/class-bhtk-module-code-shield.php:141
+#: modules/link-shortener/class-bhtk-links-page.php:26
+#: modules/post-duplicator/class-bhtk-module-post-duplicator.php:239
+#: modules/qr-generator/class-bhtk-module-qr-generator.php:269
+#: modules/visitor-stats/class-bhtk-visits-page.php:54
+msgid "You are not allowed to open this page."
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:90
+msgid "Counting is off, so new visits are not recorded. The visits already saved are still shown below."
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:92
+msgid "Counting is off. Switch it on above to start recording visits."
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:193
+msgid "Mobile phone"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:194
+msgid "Tablet"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:195
+msgid "Computer"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:196
+msgid "Smart TV"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:197
+msgid "Game console"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:198
+msgid "Robot"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:200
+#: modules/visitor-stats/class-bhtk-visits-page.php:251
+#: modules/visitor-stats/class-bhtk-visits-page.php:364
+#: modules/visitor-stats/class-bhtk-visits-page.php:976
+msgid "Unknown"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:238
+msgid "Android phone (model hidden by the browser)"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:267
+msgid "Overview"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:268
+msgid "Visit log"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:269
+msgid "Blocked IPs"
+msgstr ""
+
+#: includes/class-bhtk-admin.php:91 includes/class-bhtk-admin.php:92
+#: includes/class-bhtk-admin.php:142 includes/class-bhtk-admin.php:312
+#: modules/code-shield/class-bhtk-module-code-shield.php:168
+#: modules/visitor-stats/class-bhtk-visits-page.php:270
+msgid "Settings"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:293
+msgid "Today"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:294
+msgid "Yesterday"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:295
+msgid "Last 7 days"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:296
+msgid "Last 30 days"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:297
+msgid "Last 90 days"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:298
+msgid "Last year"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:299
+msgid "All time"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:303
+msgid "Date range"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:315
+msgid "From"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:318
+msgid "To"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:321
+msgid "Show"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:327
+#, php-format
+msgid "Showing %1$s to %2$s"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-module-visitor-stats.php:555
+#: modules/visitor-stats/class-bhtk-visits-page.php:347
+#: modules/visitor-stats/class-bhtk-visits-page.php:914
+#: modules/visitor-stats/class-bhtk-visits-page.php:937
+#: modules/visitor-stats/class-bhtk-visits-page.php:976
+msgid "Country"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-module-visitor-stats.php:556
+#: modules/visitor-stats/class-bhtk-visits-page.php:348
+msgid "Source type"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-module-visitor-stats.php:557
+#: modules/visitor-stats/class-bhtk-visits-page.php:349
+#: modules/visitor-stats/class-bhtk-visits-page.php:915
+#: modules/visitor-stats/class-bhtk-visits-page.php:938
+msgid "Source"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-referrer.php:292
+#: modules/visitor-stats/class-bhtk-visits-page.php:350
+#: modules/visitor-stats/class-bhtk-visits-page.php:941
+msgid "Campaign"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-module-visitor-stats.php:564
+#: modules/visitor-stats/class-bhtk-visits-page.php:351
+#: modules/visitor-stats/class-bhtk-visits-page.php:982
+msgid "Device type"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-module-visitor-stats.php:565
+#: modules/visitor-stats/class-bhtk-visits-page.php:352
+msgid "Brand"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-module-visitor-stats.php:566
+#: modules/visitor-stats/class-bhtk-visits-page.php:353
+msgid "Model"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-module-visitor-stats.php:568
+#: modules/visitor-stats/class-bhtk-visits-page.php:354
+msgid "System"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-module-visitor-stats.php:570
+#: modules/visitor-stats/class-bhtk-visits-page.php:355
+msgid "Browser"
+msgstr ""
+
+#: includes/class-bhtk-privacy.php:116
+#: modules/visitor-stats/class-bhtk-module-visitor-stats.php:559
+#: modules/visitor-stats/class-bhtk-visits-page.php:356
+#: modules/visitor-stats/class-bhtk-visits-page.php:916
+#: modules/visitor-stats/class-bhtk-visits-page.php:944
+msgid "Page"
+msgstr ""
+
+#: includes/class-bhtk-privacy.php:112
+#: modules/visitor-stats/class-bhtk-module-visitor-stats.php:553
+#: modules/visitor-stats/class-bhtk-visits-page.php:357
+#: modules/visitor-stats/class-bhtk-visits-page.php:913
+#: modules/visitor-stats/class-bhtk-visits-page.php:932
+#: modules/visitor-stats/class-bhtk-visits-page.php:975
+#: modules/visitor-stats/class-bhtk-visits-page.php:1078
+#: modules/visitor-stats/class-bhtk-visits-page.php:1093
+msgid "IP address"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-module-visitor-stats.php:576
+#: modules/visitor-stats/class-bhtk-visits-page.php:358
+#: modules/visitor-stats/class-bhtk-visits-page.php:987
+msgid "Search on the site"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-module-visitor-stats.php:575
+#: modules/visitor-stats/class-bhtk-visits-page.php:359
+#: modules/visitor-stats/class-bhtk-visits-page.php:986
+msgid "Logged-in user"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:361
+msgid "Filtered by:"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:377
+msgid "Remove this filter"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:386
+msgid "Clear all filters"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:404
+msgid "No visits recorded yet"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:406
+msgid "Counting is on. Visits appear here a few seconds after a page of your website is opened."
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:408
+msgid "Your own visits are not counted while you are logged in as an administrator. To test, open your website in a private window or on your phone."
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:410
+msgid "If a visit never shows up, check that a security or cache plugin is not blocking admin-ajax.php for visitors."
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:412
+msgid "Switch the module on with the switch above. From then on every page view is recorded: when, from which IP address and country, where the visitor came from, and on which device."
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:435
+#: modules/visitor-stats/class-bhtk-visits-page.php:460
+#: modules/visitor-stats/class-bhtk-visits-page.php:791
+msgid "Page views"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:439
+#: modules/visitor-stats/class-bhtk-visits-page.php:793
+msgid "Visitors"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:443
+#: modules/visitor-stats/class-bhtk-visits-page.php:460
+#: modules/visitor-stats/class-bhtk-visits-page.php:791
+msgid "Visits"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:447
+#: modules/visitor-stats/class-bhtk-visits-page.php:476
+msgid "Countries"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:451
+msgid "Online now (last 5 minutes)"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:455
+msgid "Page views: every page opened. Visitors: different people (by IP address and browser). Visits: how many times people arrived. The lists below count visits."
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:459
+msgid "Visits over time"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:488
+msgid "Where visitors came from"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:499
+msgid "Device types"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:510
+msgid "Phone and tablet models"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:521
+msgid "Operating systems"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:532
+msgid "Browsers"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:544
+msgid "Campaigns (utm_campaign)"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:556
+msgid "Most viewed pages"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:569
+msgid "Searches on your website"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:572
+msgid "These are the words visitors typed into the search box of your website. Google no longer tells websites what a visitor searched for before arriving; to see those words, connect the site to Google Search Console (free)."
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:579
+msgid "Latest visits"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:580
+msgid "Open the full visit log"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:602
+msgid "No data yet."
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:686
+msgid "No visits in this period."
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:762
+msgid "Chart of page views and visits over time"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:821
+#, php-format, python-format
+msgid "Visit log (%s page views)"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:840
+msgid "Search an IP address, for example 5.120."
+msgstr ""
+
+#: modules/link-shortener/class-bhtk-links-page.php:122
+#: modules/visitor-stats/class-bhtk-visits-page.php:841
+#: modules/visitor-stats/class-bhtk-visits-page.php:953
+msgid "Search"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:892
+msgid "Download all visits (CSV)"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:892
+msgid "Download CSV"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:905
+msgid "Nothing found for these filters."
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:912
+#: modules/visitor-stats/class-bhtk-visits-page.php:931
+msgid "Time"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:917
+#: modules/visitor-stats/class-bhtk-visits-page.php:956
+#: modules/visitor-stats/class-bhtk-visits-page.php:981
+msgid "Device"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:918
+#: modules/visitor-stats/class-bhtk-visits-page.php:963
+msgid "Browser and system"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:919
+#: modules/visitor-stats/class-bhtk-visits-page.php:967
+msgid "Details"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:947
+msgid "Entry"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:974
+msgid "Exact time"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:977
+msgid "Came from"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:977
+msgid "No referrer"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-module-visitor-stats.php:561
+#: modules/visitor-stats/class-bhtk-visits-page.php:978
+msgid "Campaign source"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-module-visitor-stats.php:562
+#: modules/visitor-stats/class-bhtk-visits-page.php:979
+msgid "Campaign medium"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-module-visitor-stats.php:563
+#: modules/visitor-stats/class-bhtk-visits-page.php:980
+msgid "Campaign name"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-module-visitor-stats.php:572
+#: modules/visitor-stats/class-bhtk-visits-page.php:983
+msgid "Screen"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-module-visitor-stats.php:573
+#: modules/visitor-stats/class-bhtk-visits-page.php:984
+msgid "Language"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:985
+msgid "Time zone of the device"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:988
+msgid "Visit id"
+msgstr ""
+
+#: includes/class-bhtk-privacy.php:124
+#: modules/visitor-stats/class-bhtk-module-visitor-stats.php:578
+#: modules/visitor-stats/class-bhtk-visits-page.php:989
+msgid "User agent"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:1000
+msgid "Block this IP address"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:1035
+msgid "Blocking works only while this module is on. While it is off, nobody is blocked."
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:1038
+msgid "The option that hides the last part of every IP address is on, so the stored addresses are not the real ones. Turn it off in Settings before blocking from the visit log."
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:1042
+msgid "Block an IP address"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:1043
+msgid "A blocked visitor sees an \"Access blocked\" page instead of your website, including the login page. Careful: an IP address belongs to a network connection, not to one device. Everyone on the same Wi-Fi shares one address, and mobile operators give the same address to many people. Check the visits of an address in the visit log first, and prefer a temporary block."
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:1048
+msgid "IP address or range"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:1050
+msgid "One address, or an IPv4 range such as 198.51.100.0/24."
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:1053
+msgid "Note (optional)"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:1057
+msgid "Block for"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:1059
+msgid "1 hour"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:1060
+msgid "24 hours"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:1061
+msgid "7 days"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:1062
+msgid "30 days"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:1063
+#: modules/visitor-stats/class-bhtk-visits-page.php:1099
+msgid "Until I remove it"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:1066
+msgid "Block"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:1071
+msgid "Blocked addresses"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:1073
+msgid "No address is blocked."
+msgstr ""
+
+#: modules/link-shortener/class-bhtk-links-page.php:106
+#: modules/link-shortener/class-bhtk-links-page.php:204
+#: modules/visitor-stats/class-bhtk-visits-page.php:1079
+#: modules/visitor-stats/class-bhtk-visits-page.php:1094
+msgid "Note"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:1080
+#: modules/visitor-stats/class-bhtk-visits-page.php:1095
+msgid "Blocked since"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:1081
+#: modules/visitor-stats/class-bhtk-visits-page.php:1096
+msgid "Blocked until"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:1082
+#: modules/visitor-stats/class-bhtk-visits-page.php:1107
+msgid "Stored page views"
+msgstr ""
+
+#: modules/link-shortener/class-bhtk-links-page.php:144
+#: modules/link-shortener/class-bhtk-links-page.php:179
+#: modules/post-duplicator/class-bhtk-module-post-duplicator.php:429
+#: modules/visitor-stats/class-bhtk-visits-page.php:1083
+msgid "Actions"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:1101
+msgid "Expired"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:1113
+msgid "Unblock"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:1124
+msgid "Good to know"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:1126
+msgid "Blocking stops requests that reach WordPress. A page that a CDN or a cache plugin hands out without asking WordPress is not stopped; for a real attack, block the address in your CDN or firewall too."
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:1127
+msgid "If your website is not behind a CDN or proxy, choose \"Only the direct connection\" in Settings, so that nobody can fake an address and get someone else blocked."
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:1128
+msgid "Your own address and administrators who are logged in are never blocked. If you ever lock yourself out, add define( 'BHTK_NO_IP_BLOCK', true ); to wp-config.php."
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:1156
+msgid "What is counted"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:1159
+msgid "Do not count administrators who are logged in"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:1159
+msgid "Recommended, so your own work on the website does not change the numbers."
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:1160
+msgid "Do not count any logged-in user"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:1160
+msgid "Editors, customers and other members are skipped too."
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:1161
+msgid "Respect the \"Do Not Track\" browser setting"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:1161
+msgid "Visitors whose browser sends this signal are not counted."
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:1164
+msgid "IP addresses that are never counted"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:1166
+msgid "One address per line, for example your office. IPv4 ranges such as 198.51.100.0/24 work too."
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:1172
+msgid "IP address and country"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:1173
+msgid "An IP address can count as personal data in some countries. If your visitors are protected by such a law, mention the counting in your privacy policy, or tick the option that hides the last part of every address."
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:1175
+msgid "Hide the last part of every IP address"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:1175
+msgid "203.0.113.57 is saved as 203.0.113.0. Countries are then taken from your CDN only, and cannot be looked up online later."
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:1178
+msgid "Where to read the visitor address"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:1180
+msgid "Automatic (works behind Cloudflare and other proxies)"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:1181
+msgid "Only the direct connection (cannot be faked)"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:1183
+msgid "If every visitor shows the same address, your site is behind a proxy: use Automatic."
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:1187
+msgid "Online country lookup service"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:1189
+msgid "Automatic (tries the services below in turn)"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:1196
+msgid "Find the country online when the server does not know it (sends visitor IP addresses to an outside service)"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:1196
+msgid "Off by default. The country is first read from your CDN (Cloudflare, ArvanCloud and others) and from earlier visits of the same address. When you switch this on and that fails, the visitor IP address is sent once to the lookup service chosen above (ipwho.is or GeoJS). Mention this in your privacy policy. Left off, every address stays on your server and the country shows as unknown unless your CDN provides it."
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:1201
+msgid "Storage and dates"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:1204
+msgid "Keep visits for (days)"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:1206
+msgid "Older visits are deleted automatically. 0 keeps everything."
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:1209
+msgid "Calendar"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:1211
+msgid "Automatic (Persian dates when the toolkit is in Persian)"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:1212
+msgid "Persian (Jalali)"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:1213
+msgid "Gregorian"
+msgstr ""
+
+#: includes/class-bhtk-admin.php:537
+#: modules/code-shield/class-bhtk-module-code-shield.php:172
+#: modules/post-duplicator/class-bhtk-module-post-duplicator.php:272
+#: modules/visitor-stats/class-bhtk-visits-page.php:1219
+msgid "Save settings"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:1228
+msgid "Your data"
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:1233
+#, php-format
+msgid "%1$s page views are stored, the oldest from %2$s."
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:1241
+msgid "Delete ALL stored visits? This cannot be undone."
+msgstr ""
+
+#: modules/visitor-stats/class-bhtk-visits-page.php:1244
+msgid "Delete all visits"
+msgstr ""
+
